@@ -1,0 +1,10 @@
+"""Protocol constants shared by the client and worker server."""
+
+ABI_VERSION = 1
+HEADER_SIZE = 64
+DATA_SIZE_OFFSET = 0
+FLAGS_OFFSET = 8
+FLAGS_SIZE = 4
+MAGIC_OFFSET = 12
+MAGIC_BYTES = b"UPPSHM1\0"
+DEFAULT_TIMEOUT_SECONDS = 5.0
